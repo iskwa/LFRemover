@@ -25,15 +25,9 @@ namespace LFRemover
             InitializeComponent();
         }
 
-        private void ButtonTranslate_Click(object sender, RoutedEventArgs e)
+        private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void ButtonRemoveLineBreak_Click(object sender, RoutedEventArgs e)
-        {
-            var source = this.TextBoxSource.Text;
-
+            this.Close();
         }
     }
 }
